@@ -40,9 +40,9 @@ app.get('/api/catalog', (req, res) => {
     res.render('catalog'); 
    });
 
-//app.get('/api/article', (req, res) => {
- //   res.render('article'); 
-   //});
+app.get('/api/article', (req, res) => {
+    res.render('article'); 
+   });
 
 //pass requests to the router middleware
 const router = require('./routes/apis');
