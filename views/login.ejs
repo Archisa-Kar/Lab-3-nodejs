@@ -1,0 +1,29 @@
+<%- include('header'); -%>
+
+<div class='content'>
+
+    <h1 ID="signin">Sign In</h1>
+
+    <form action="/api/login" method="get">
+
+        <label for="user">Username:</label><br>
+        <input type="text" id="user" name="user"><br>
+
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="pass"><br>
+        
+        <br>
+        <input type="submit" value="Submit">
+        <br>
+
+        <h3> Don't have an account? <a href = "/register"> Register </a></h3>
+
+        <br>
+
+    </form>
+    
+</div>
+
+
+
+<%- include('footer'); -%>
